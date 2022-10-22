@@ -22,8 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('register/', views.register),
+    path('coba/', views.coba),
     path('dashboard/', adminsview.index),
     path('attendance/', adminsview.attendance),
-    path('user/', adminsview.user)
+    path('user/', adminsview.user),
+    
     
 ]
