@@ -13,3 +13,9 @@ def attendance(request):
 
 def user(request):
     return render(request, 'user.html')
+
+def sudahabsen(request):
+    return render(request, 'sudahabsen.html')
+
+def tidakabsen(request):
+    return render(request, 'tidakabsen.html')

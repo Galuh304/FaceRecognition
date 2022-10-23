@@ -26,6 +26,8 @@ urlpatterns = [
     path('dashboard/', adminsview.index),
     path('attendance/', adminsview.attendance),
     path('user/', adminsview.user),
+    path('sudahabsen/', adminsview.sudahabsen),
+    path('tidakabsen/', adminsview.tidakabsen),
     
     
 ]
